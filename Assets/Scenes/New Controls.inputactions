@@ -1,0 +1,57 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Animation sous-marin",
+            "id": "81289ccb-e5ef-42a7-8d61-cb640af08cba",
+            "actions": [
+                {
+                    "name": "Avance",
+                    "type": "Button",
+                    "id": "6bbe23c9-dd3a-4c04-8948-fce4bc0efe90",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1ac5eb5f-9ced-4073-940e-aee269a96334",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Avance",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b62b197-7b4f-4a33-8912-7d73c92a97bf",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Avance",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
