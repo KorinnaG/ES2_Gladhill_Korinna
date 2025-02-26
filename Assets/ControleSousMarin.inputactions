@@ -7,53 +7,20 @@
             "actions": [
                 {
                     "name": "Promener",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "6bbe23c9-dd3a-4c04-8948-fce4bc0efe90",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "ab2a34ea-6d96-41fe-b014-8122b6482184",
-                    "path": "WSQE",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Promener",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "43a1fa9b-cfe8-4851-9ecc-c90e6707801d",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Promener",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "3b62b197-7b4f-4a33-8912-7d73c92a97bf",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard",
-                    "action": "Promener",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Button With Two Modifiers",
-                    "id": "ad386910-f131-4fed-886a-e5ea8ee2bb62",
-                    "path": "ButtonWithTwoModifiers",
-                    "interactions": "",
+                    "name": "2D Vector",
+                    "id": "e5b59a9e-5bc9-4b0a-86e8-0ee5b25d7bf5",
+                    "path": "2DVector",
+                    "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "",
                     "action": "Promener",
@@ -61,9 +28,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Modifier 1",
-                    "id": "1dbc3a8c-5fa5-4b4e-a454-4ac1da5888f4",
-                    "path": "",
+                    "name": "up",
+                    "id": "6addf68b-23b5-4b9a-86e6-ae03c00c8b7f",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -72,9 +39,9 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Modifier 2",
-                    "id": "194d991e-ba1f-428d-8e29-03828d73d7fc",
-                    "path": "",
+                    "name": "down",
+                    "id": "cdf3770a-65ed-449c-81ad-fe585d656993",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -83,9 +50,20 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Button",
-                    "id": "e704ccdc-eb06-46a4-8ea1-6c26c2a8c720",
-                    "path": "",
+                    "name": "left",
+                    "id": "306d1183-74e8-44fa-b16d-89121f4dc5f1",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Promener",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f1ea39ff-c8f6-4b71-8476-91e1bf1c20f6",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

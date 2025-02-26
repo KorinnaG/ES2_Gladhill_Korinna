@@ -12,9 +12,18 @@ public class ControlePoissonDash : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
     }
 
-    void OnAvancer()
+    void OnPromener(InputValue Bouton)
     {
+        if(Bouton.isPressed ){
+            Debug.Log("oui");
+        }
+        else{
+            Debug.Log("non");
+
+        }
         
         _rb.AddRelativeForce(Vector3.forward * 1f, ForceMode.VelocityChange);
     }
+
+    
 }
